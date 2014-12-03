@@ -2,14 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FFFF"
     tools:context=".RawMaterialFragment" >
 
-    <!-- TODO: Update blank fragment layout -->
-
-    <TextView
+    <ListView
+        android:id="@+id/raw_material_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:layout_height="wrap_content" >
+    </ListView>
+    
 </FrameLayout>
