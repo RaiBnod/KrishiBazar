@@ -5,5 +5,91 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    
+    <string-array name="drawerList">
+        <item>KrishiBazar</item>
+        <item>Complain</item>
+        <item>Data Analytics</item>
+    </string-array>
+    
+    <string-array name="district">
+        <item>Achham</item>
+		<item>Arghakhanchi</item>
+		<item>Baglung</item>
+		<item>Baitadi</item>
+		<item>Bajhang</item>
+		<item>Bajura</item>
+		<item>Banke</item>
+		<item>Bara</item>
+		<item>Bardiya</item>
+		<item>Bhaktapur</item>
+		<item>Bhojpur</item>
+		<item>Chitwan</item>
+		<item>Dadeldhura</item>
+		<item>Dailekh</item>
+		<item>Dang</item>
+		<item>Darchula</item>
+		<item>Dhading</item>
+		<item>Dhankuta</item>
+		<item>Dhanusa</item>
+		<item>Dholkha</item>
+		<item>Dolpa</item>
+		<item>Doti</item>
+		<item>Gorkha</item>
+		<item>Gulmi</item>
+		<item>Humla</item>
+		<item>Ilam</item>
+		<item>Jajarkot</item>
+		<item>Jhapa</item>
+		<item>Jumla</item>
+		<item>Kailali</item>
+		<item>Kalikot</item>
+		<item>Kanchanpur</item>
+		<item>Kapilvastu</item>
+		<item>Kaski</item>
+		<item>Kathmandu</item>
+		<item>Kavrepalanchok</item>
+		<item>Khotang</item>
+		<item>Lalitpur</item>
+		<item>Lamjung</item>
+		<item>Mahottari</item>
+		<item>Makwanpur</item>
+		<item>Manang</item>
+		<item>Morang</item>
+		<item>Mugu</item>
+		<item>Mustang</item>
+		<item>Myagdi</item>
+		<item>Nawalparasi</item>
+		<item>Nuwakot</item>
+		<item>Okhaldhunga</item>
+		<item>Palpa</item>
+		<item>Panchthar</item>
+		<item>Parbat</item>
+		<item>Parsa</item>
+		<item>Pyuthan</item>
+		<item>Ramechhap</item>
+		<item>Rasuwa</item>
+		<item>Rautahat</item>
+		<item>Rolpa</item>
+		<item>Rukum</item>
+		<item>Rupandehi</item>
+		<item>Salyan</item>
+		<item>Sankhuwasabha</item>
+		<item>Saptari</item>
+		<item>Sarlahi</item>
+		<item>Sindhuli</item>
+		<item>Sindhupalchok</item>
+		<item>Siraha</item>
+		<item>Solukhumbu</item>
+		<item>Sunsari</item>
+		<item>Surkhet</item>
+		<item>Syangja</item>
+		<item>Tanahu</item>
+		<item>Taplejung</item>
+		<item>Terhathum</item>
+		<item>Udayapur</item>
+    </string-array>
 
 </resources>

@@ -1,6 +1,8 @@
 package com.creativemind.krishibazar;
 
 import com.creativemind.krishibazar.R;
+import com.parse.Parse;
+import com.parse.PushService;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,6 +13,10 @@ public class Splash extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash);
+		
+		getActionBar().hide();
+		  // Also in this method, specify a default Activity to handle push notifications
+		
 		
 		new Thread() {
 			public void run() {
@@ -24,6 +30,8 @@ public class Splash extends Activity {
 				}
 			}
 		}.start();
+		
+		
 		
 	}
 

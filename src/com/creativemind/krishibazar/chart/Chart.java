@@ -35,7 +35,7 @@ public class Chart {
     	// Creating XYSeriesRenderer to customize incomeSeries
     	XYSeriesRenderer priceRenderer = new XYSeriesRenderer();
     	priceRenderer.setColor(Color.WHITE);
-    	priceRenderer.setPointStyle(PointStyle.TRIANGLE);
+    	priceRenderer.setPointStyle(PointStyle.DIAMOND);
     	priceRenderer.setFillPoints(true);
     	priceRenderer.setLineWidth(2);
     	priceRenderer.setDisplayChartValues(true);
@@ -50,7 +50,7 @@ public class Chart {
     	
     	multiRenderer.setXLabels(0);
     	multiRenderer.setChartTitle("Price Chart");
-    	multiRenderer.setXTitle("2014/11");
+    	multiRenderer.setXTitle("2014/11/");
     	multiRenderer.setYTitle("Price in Rs.");
     	multiRenderer.setZoomButtonsVisible(true);    	    	
     	for(int i=1;i<=30;i++){

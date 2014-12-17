@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="District"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinnerDistrictList"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tvDistrict"
+        android:entries="@array/district" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvDistrict"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="top"
+        android:padding="10dp"
+        android:background="#C0C0C0" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etMessage"
+        android:layout_margin="10dp"
+        android:text="Send" />
+
+</RelativeLayout>

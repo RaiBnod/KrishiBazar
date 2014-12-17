@@ -1,5 +1,9 @@
 package com.creativemind.krishibazar;
 
+import com.creativemind.krishibazar.fragment.FruitsFragment;
+import com.creativemind.krishibazar.fragment.ProducedMaterialFragment;
+import com.creativemind.krishibazar.fragment.VegetablesFragment;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -14,9 +18,12 @@ public class MyAdapter extends FragmentPagerAdapter {
 	public Fragment getItem(int arg0) {
 		Fragment fragment = null;
 		if (arg0 == 0) {
-			fragment = new RawMaterialFragment();
+			fragment = new FruitsFragment();
 		}
-		else if(arg0 == 1) {
+		if (arg0 == 1) {
+			fragment = new VegetablesFragment();
+		}
+		if (arg0 == 2) {
 			fragment = new ProducedMaterialFragment();
 		}
 		return fragment;
@@ -24,7 +31,6 @@ public class MyAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public int getCount() {
-		return 2;
+		return 3;
 	}
-
 }
